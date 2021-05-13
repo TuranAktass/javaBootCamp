@@ -1,4 +1,4 @@
-package week2;
+package day2;
 
 public class Course {
 
