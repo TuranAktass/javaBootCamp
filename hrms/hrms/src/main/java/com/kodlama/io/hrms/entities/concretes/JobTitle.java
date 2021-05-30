@@ -1,11 +1,16 @@
 package com.kodlama.io.hrms.entities.concretes;
 
 import javax.persistence.*;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
 @Table(name = "job_titles")
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class JobTitle{
 
@@ -14,17 +19,7 @@ public class JobTitle{
 	@Column(name = "id")
 	private int id;
 	
-	@Column(name = "title")
+	@Column(name = "job_title")
 	private String jobTitle;
-	
-	public JobTitle() {
-		
-	}
-	
-	public JobTitle(int id, String jobTitle) {
-		this.id = id;
-		this.jobTitle = jobTitle;
-	}
-	
 	
 }
