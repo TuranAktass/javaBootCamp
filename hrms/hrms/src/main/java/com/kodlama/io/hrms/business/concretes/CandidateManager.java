@@ -10,7 +10,7 @@ import com.kodlama.io.hrms.business.abstracts.CandidateService;
 import com.kodlama.io.hrms.core.abstracts.EmailCheckService;
 import com.kodlama.io.hrms.core.abstracts.EmailVerificationService;
 import com.kodlama.io.hrms.core.abstracts.MernisCheckService;
-import com.kodlama.io.hrms.core.concretes.MernisServiceAdapter;
+//import com.kodlama.io.hrms.core.concretes.MernisServiceAdapter;
 import com.kodlama.io.hrms.core.utilities.results.ErrorResult;
 import com.kodlama.io.hrms.core.utilities.results.Result;
 import com.kodlama.io.hrms.core.utilities.results.SuccessResult;
